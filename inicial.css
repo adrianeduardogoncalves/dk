@@ -1,0 +1,88 @@
+body{
+	background-image: url("fcb.jpg");
+
+}
+main{
+	color: #FFFFFF;
+}
+
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+header {
+	padding: 20px 0;
+}
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+
+}
+
+nav a:hover {
+	color: #C78C69;
+	text-decoration: underline;
+}
+form {
+  margin: 40px 0;
+  display: inline-block;
+  color: #FFFFFF;
+
+}
+form label, form legend{
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+	color: #ffffff;
+
+}
+
+.enviar {
+  width: 40%;
+  padding: 15px 0;
+  background: black;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  transition: 1s all;
+  cursor: pointer;
+}
+.enviar:hover {
+  background: red;
+  transform: scale(1.2);
+}
+.checkbox {
+  margin: 20px 0;
+}
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	padding: 20px 0 0;
+}
+
+footer {
+	text-align: center;
+	background: #1C1C1C;
+	padding: 40px 0;
+
+
+}

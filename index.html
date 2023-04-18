@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>PAGINA INICIAL</title>
+</head>
+<body>
+	<title>HOME</title>
+	<link rel="stylesheet" type="text/css" href="inicial.css">
+	<header>
+    <div class="caixa">
+     <h1> <img src="download.png" alt="Logo 350Z" width="450" height="300"></h1>
+
+      <nav>
+        <ul>
+          <li><a href="https://www.webmotors.com.br/">COMPRA DE VEÍCULOS</a></li>
+          <li><a href="trabalho.html">NOVOS MODELOS</a></li>
+          
+        </ul>
+        </nav>
+</header>
+<main>
+
+  <center><h2> FAÇA SEU CADASTRO COM NÓS</h2></center>
+  <form>
+    <label for="nomesobrenome"> Nome e Sobrenome</label>
+    <input type="text" id="nomesobrenome" class="input-padrao"required></input>
+    <label for="email">"Email </label>
+    <input type="email" id="email" class="input-padrao" required placeholder=seuemail@gmail.com">
+    <label form="telefone"> Telefone</label>
+    <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxxx">
+    
+     
+
+      <fieldset>
+      <legend>Como prefere o nosso contato com voce?</legend>
+      <label for="radio-email"> <input type="radio" name="contato" value="email" id="radio-email"> Email</label>
+      <label for="radio-whatsapp"> <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> Whatsapp</label>
+      <label for="radio-telefone"> <input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+     
+      </fieldset>
+
+       <fieldset>
+        <legend>Qual horario pretende?</legend>
+        <select>
+          <option>Manhã</option>
+          <option>Tarde</option>
+          <option>Noite</option>
+        </select>
+           </fieldset>
+
+       
+        <input type="submit" value="Enviar formulario" class="enviar">
+  </form>
+  
+
+
+
+
+
+	</body>
+</html>
